@@ -1,0 +1,19 @@
+<algorithm>
+	<servers num = "?" flag = "{fixed, all, random}">
+		OPTIONAL: If flag is fixed, then put server locations here.
+	</servers>
+	
+	<requests flag = "{fixed, all, random}">
+		OPTIONAL: If flag is fixed, then put request locations here.	
+	</requests>
+
+	<methods> //Can pick which methods to include
+		<Greedy/>
+		<WFA eps = "{n}"/> //For WFA, input epsilon here. The eps attribute is required
+		<Cowpath/>
+		<Harmonic/>
+		<DoubleCoverage/>
+	</methods>
+	
+	<line>{n}</line> //Length of the line
+</algorithm>

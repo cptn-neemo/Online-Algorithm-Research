@@ -1,0 +1,18 @@
+
+<algorithm>
+	<servers num = "5" flag = "all">
+	</servers>
+	
+	<requests flag = "all">
+	</requests>
+
+	<methods>
+		<Greedy/>
+		<WFA eps = "2"/>
+		<cowpath/>
+		<dc/>
+		<harmonic/>
+	</methods>
+	
+	<length>9</length>
+</algorithm>
